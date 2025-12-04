@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Demo Responsywne</title>
+    
+    <link rel="stylesheet" href="{% static 'frontend_demo/style.css' %}">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="custom-nav">
+        <a href="#">Strona Główna</a>
+        <a href="#">O nas</a>
+        <a href="#">Projekty</a>
+        <a href="#">Kontakt</a>
+    </nav>
+
+    <div class="container mt-4 text-center">
+        <h1>Witaj w responsywnym Django!</h1>
+        <p>Zmniejsz szerokość okna przeglądarki, aby zobaczyć jak menu zmienia się na pionowe.</p>
+    </div>
+    <footer class="custom-footer mt-4">
+        <p>&copy; 2025 Patryk Kuciński</p>
+    </footer>
+</body>
+</html>
