@@ -22,4 +22,5 @@ urlpatterns = [
     path("", include("witaj.urls")),  
     path('demo/', include('frontend_demo.urls')),
     path('visit/', include('visitcounter.urls')),
+    path("", include('todo.urls')),
 ]

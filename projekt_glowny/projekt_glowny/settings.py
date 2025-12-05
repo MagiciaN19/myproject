@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'witaj',
     'frontend_demo',
     'visitcounter',
+    'todo',
 ]
 
 MIDDLEWARE = [
